@@ -39,6 +39,10 @@
  } 
 
  /* ------ Signin page ------- */
+ #signin #signin-card {
+   width: 50%;
+ }
+
  #signin #signin-card h2 {
     text-align: center;
     padding-bottom: 10px;
@@ -51,8 +55,10 @@
  }
 
  #signin #shark-img {
+   width: 150px;
+   height: auto;
    top: -35px;
-   left:-98px;
+   left:-83px;
  }
 
  #signin input {
@@ -83,9 +89,11 @@
     background-color: #f8f8f8;
  }
 
+
+
  @media all and (max-width:768px) {
-    #signin #btn-group {
-      /* flex-wrap: wrap; */
+    #signin-card {
+      width: 80% !important;
     }
 
     #signin #btn-group #signin-btn {
