@@ -1,0 +1,39 @@
+/* ------ Navbar ------- */
+#nav-bar {
+    background-color: rgba(26, 46, 56, 0.9);
+    padding-bottom: 0; 
+    font-size: 14px;   
+}
+
+#navbarContent {
+    margin-bottom: 25px;
+    justify-content: space-around;
+}
+
+#navbarContent .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#navbarContent #register-btn {
+    color:#03B1F4; 
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* Change the color in the stroke property of the hamburger menu */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,165,0)' stroke-width='2' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    cursor: pointer;
+}
+
+/* To expand the button to full width in hamburger menu mode*/
+@media all and (max-width:1199px) {
+    .custom-class { 
+        width: 95%; 
+        display:block;
+        margin: 0 auto; 
+    }
+ }  
