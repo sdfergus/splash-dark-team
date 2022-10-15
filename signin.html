@@ -18,10 +18,10 @@
                 <div class="container text-center p-5">
                     <img src="images/splash-wave.png" alt="Splashes logo"  width="280" height="auto">
                 </div>
-                <div class="container w-50 border p-5 shadow-lg p-3 mb-5 bg-white rounded" id="signin-card">
+                <div class="container w-50 border p-4 shadow-lg p-3 mb-5 bg-white rounded position-relative" id="signin-card">
                     <!-- <span>
-                        <img src="images/shark-full.png" class="img-fluid" alt="Shark image">
                     </span> -->
+                    <img src="images/shark-full.png" class="img-fluid position-absolute" id="shark-img" alt="Shark image">
                     <h2>SIGN IN</h2>
                     <form action="" class="needs-validation">
                         <div class="form-group">
@@ -52,9 +52,13 @@
                         <div class="form-group text-right mb-5" id="forgot-pw">
                             <a href="#">Forgot password?</a>
                         </div>
-                        <div class="btn-group d-flex" id="btn-group">
-                            <button type="submit" class="btn rounded-pill mr-3" id="signin-btn" disabled>Sign In</button>
-                            <button type="submit" class="btn rounded-pill" id="signup-btn">Sign Up</button>
+                        <div class="row justify-content-center g-2 mb-1" id="btn-group">
+                            <div class="col-xs-12 col-md-6 pr-md-2">
+                                <button type="submit" class="btn btn-block rounded-pill" id="signin-btn" disabled>Sign In</button>
+                            </div>
+                            <div class="col-xs-12 col-md-6 pl-md-2">
+                                <button type="submit" class="btn btn-block rounded-pill" id="signup-btn">Sign Up</button>
+                            </div>
                         </div>
                     </form>
                 </div>
