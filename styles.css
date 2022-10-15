@@ -36,18 +36,23 @@
         display:block;
         margin: 0 auto; 
     }
- }  
+ } 
 
  /* ------ Signin page ------- */
- #signin-card h2 {
+ #signin #signin-card h2 {
     text-align: center;
     padding-bottom: 10px;
     color: #444;
  }
  
- .form-group label {
+ #signin .form-group label {
     color: red;
     margin-bottom: 0;
+ }
+
+ #signin #shark-img {
+   top: -35px;
+   left:-98px;
  }
 
  #signin input {
@@ -55,25 +60,35 @@
     color: #FFF;
  }
 
- #forgot-pw{
+ #signin #forgot-pw{
     text-decoration: underline;
  }
 
- #forgot-pw a {
+ #signin #forgot-pw a {
     color: #03B1F4;
  }
 
- #btn-group button {
+ #signin #btn-group button {
     font-weight: 500;
  }
 
- #signin-btn {
+ #signin #signin-btn {
     background-color: rgba(3, 177, 244, 0.5);
     color: white;
  }
 
- #signup-btn {
+ #signin #signup-btn {
     border: 2px solid #03B1F4;
     color: #03B1F4;
-    background-color: white;
+    background-color: #f8f8f8;
+ }
+
+ @media all and (max-width:768px) {
+    #signin #btn-group {
+      /* flex-wrap: wrap; */
+    }
+
+    #signin #btn-group #signin-btn {
+      margin-bottom: 10px;
+    }
  }
