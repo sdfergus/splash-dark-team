@@ -37,3 +37,43 @@
         margin: 0 auto; 
     }
  }  
+
+ /* ------ Signin page ------- */
+ #signin-card h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #444;
+ }
+ 
+ .form-group label {
+    color: red;
+    margin-bottom: 0;
+ }
+
+ #signin input {
+    background-color:#e4eaea;
+    color: #FFF;
+ }
+
+ #forgot-pw{
+    text-decoration: underline;
+ }
+
+ #forgot-pw a {
+    color: #03B1F4;
+ }
+
+ #btn-group button {
+    font-weight: 500;
+ }
+
+ #signin-btn {
+    background-color: rgba(3, 177, 244, 0.5);
+    color: white;
+ }
+
+ #signup-btn {
+    border: 2px solid #03B1F4;
+    color: #03B1F4;
+    background-color: white;
+ }
