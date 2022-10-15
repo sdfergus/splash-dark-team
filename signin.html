@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="styles.css">
+        
+        <title>Sign-in</title>
+
+    </head>
+    <body id="signin">
+        <main>
+            <div class="container">
+                <div class="container text-center p-5">
+                    <img src="images/splash-wave.png" alt="Splashes logo"  width="280" height="auto">
+                </div>
+                <div class="container w-50 border p-5 shadow-lg p-3 mb-5 bg-white rounded" id="signin-card">
+                    <!-- <span>
+                        <img src="images/shark-full.png" class="img-fluid" alt="Shark image">
+                    </span> -->
+                    <h2>SIGN IN</h2>
+                    <form action="" class="needs-validation">
+                        <div class="form-group">
+                            <label for="userEmail">Email *</label>
+                            <input 
+                                type="email" 
+                                class="form-control" 
+                                id="userEmail" 
+                                aria-describedby="emailHelp" 
+                                placeholder="" 
+                                required
+                            >
+                            <!-- <div class="invalid-tooltip">Please provide your email.</div> -->
+                            <div class="valid-tooltip">Looks good!</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="userPassword">Password *</label>
+                            <input 
+                                type="password" 
+                                class="form-control" 
+                                id="userPassword" 
+                                placeholder="" 
+                                required
+                            >
+                            <!-- <div class="invalid-tooltip">Please provide your password</div> -->
+                            <div class="valid-tooltip">Looks good!</div>
+                        </div>
+                        <div class="form-group text-right mb-5" id="forgot-pw">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                        <div class="btn-group d-flex" id="btn-group">
+                            <button type="submit" class="btn rounded-pill mr-3" id="signin-btn" disabled>Sign In</button>
+                            <button type="submit" class="btn rounded-pill" id="signup-btn">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
