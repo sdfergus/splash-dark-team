@@ -10,7 +10,7 @@ header {
    /* background-size: 100% auto; */
 }
 
-/* ------ Navbar ------- */
+/* -------------------- Navbar -------------------- */
 #nav-bar {
     background-color: rgba(26, 46, 56, 0.9);
     padding-bottom: 0; 
@@ -50,7 +50,7 @@ header {
     }
  } 
 
- /* ------ Signin page ------- */
+ /* -------------------- Signin page -------------------- */
  #signin #signin-card {
    width: 50%;
  }
@@ -110,3 +110,18 @@ header {
       margin-bottom: 10px;
     }
  }
+
+/* -------------------- Locations Grid List -------------------- */
+#locations-list {
+   background-color: aliceblue;
+   font-family: 'Open Sans', sans-serif;
+}
+#locations-list ul li {
+   color: #03B1F4;
+   font-size: 14px;
+   font-weight: bold;
+   padding: 2px 0;     
+}
+#locations-list ul li a {
+   color: #03B1F4;   
+}
