@@ -1,3 +1,15 @@
+header {
+   width: 100%;
+   min-height: 500px;
+   /* min-height: 275px; */
+}
+
+#home {
+   background: no-repeat white url(/images/home.jpeg);
+   background-size: 100% 600px;
+   /* background-size: 100% auto; */
+}
+
 /* ------ Navbar ------- */
 #nav-bar {
     background-color: rgba(26, 46, 56, 0.9);
@@ -88,8 +100,6 @@
     color: #03B1F4;
     background-color: #f8f8f8;
  }
-
-
 
  @media all and (max-width:768px) {
     #signin-card {
