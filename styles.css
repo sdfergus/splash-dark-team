@@ -11,6 +11,10 @@ header {
 }
 
 /* -------------------- Navbar -------------------- */
+nav {
+   position: relative;
+}
+
 #nav-bar {
     background-color: rgba(26, 46, 56, 0.9);
     padding-bottom: 0; 
@@ -26,6 +30,19 @@ header {
     color: white;
     font-weight: 500;
     padding: 10px;
+}
+
+.dropdown {
+   position: initial;
+}
+
+.dropdown-menu {
+   padding: 0;
+   width: 100%;
+}
+
+#locations-list {
+   padding: 20px;
 }
 
 #navbarContent #register-btn {
@@ -113,7 +130,6 @@ header {
 
 /* -------------------- Locations Grid List -------------------- */
 #locations-list {
-   background-color: aliceblue;
    font-family: 'Open Sans', sans-serif;
 }
 #locations-list ul li {
