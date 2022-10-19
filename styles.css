@@ -32,13 +32,21 @@ nav {
     padding: 10px;
 }
 
+/*Toggle this when nav is active*/
 .dropdown {
    position: initial;
 }
 
+
 .dropdown-menu {
    padding: 0;
    width: 100%;
+}
+
+.highlight {
+   background-color: white;
+   color: black !important;
+   height: 3em;
 }
 
 #locations-list {
