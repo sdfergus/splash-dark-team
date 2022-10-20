@@ -10,26 +10,28 @@ header {
    /* background-size: 100% auto; */
 }
 
+
 /* -------------------- Navbar -------------------- */
 nav {
    position: relative;
 }
 
 #nav-bar {
-    background-color: rgba(26, 46, 56, 0.9);
-    padding-bottom: 0; 
-    font-size: 14px;   
+   background-color: rgba(26, 46, 56, 0.9);
+   /* padding-bottom: 0;
+   padding-top: 20px;  */
+   font-size: 14px;   
 }
 
 #navbarContent {
-    margin-bottom: 25px;
-    justify-content: space-around;
+   /* margin-bottom: 25px; */
+   justify-content: space-around;
 }
 
 #navbarContent .navbar-nav .nav-item .nav-link {
-    color: white;
-    font-weight: 500;
-    padding: 10px;
+   color: white;
+   font-weight: 500;
+   padding: 10px;
 }
 
 /*Toggle this when nav is active*/
@@ -40,7 +42,7 @@ nav {
 .dropdown-menu {
    width: 90%;
    margin: auto;
-   top: 60%;
+   top: 65%;
    left: 5%;
    border: none;
 }
@@ -48,18 +50,14 @@ nav {
 .highlight {
    background-color: white;
    color: black !important;
-   height: 3em; 
-}
-
-#locations-list {
-   padding: 20px;
+   /* height: 3em;  */
 }
 
 #navbarContent #register-btn {
     color:#03B1F4; 
     font-weight: 700;
     margin-bottom: 8px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Change the color in the stroke property of the hamburger menu */
@@ -67,6 +65,22 @@ nav {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,165,0)' stroke-width='2' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     cursor: pointer;
 } 
+
+
+/* -------------------- Locations Grid List -------------------- */
+#locations-list {
+   /* font-family: 'Open Sans', sans-serif; */
+   padding: 10px;
+}
+#locations-list ul li {
+   font-size: 14px;
+   font-weight: 500;
+   padding: 2px 0;     
+}
+#locations-list ul li a {
+   color: #03B1F4;   
+}
+
 
  /* -------------------- Signin page -------------------- */
  #signin #signin-card {
@@ -129,28 +143,41 @@ nav {
     }
  }
 
-/* -------------------- Locations Grid List -------------------- */
-#locations-list {
-   font-family: 'Open Sans', sans-serif;
-}
-#locations-list ul li {
-   color: #03B1F4;
-   font-size: 14px;
-   font-weight: bold;
-   padding: 2px 0;     
-}
-#locations-list ul li a {
-   color: #03B1F4;   
-}
-
-/* To expand the button to full width in hamburger menu mode */
 @media all and (max-width:1199px) {
-   .custom-class { 
+   .custom-class { /* To expand the button to full width in hamburger menu mode */
       width: 95%; 
       display:block;
       margin: 0 auto; 
    }
    .dropdown-menu {
       width: 100%;
+      padding: 0;
+      border-radius: 0;
+   }
+   #locations-list  {
+      padding-top: 10px !important;
+   }
+   #locations-list div h6 {
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 12px !important;
+   }
+   #locations-list .row .col-sm-6 {
+      margin-bottom: 12px !important;
+   }
+}
+
+@media all and (max-width:1199px) {
+   .col-filler {
+      /* display: none !important; */
+   }
+   #locations-list {
+      /* display: grid; */
+      /* grid-gap: 100px; */
+      /* grid-template-columns: repeat(auto-fill, 600px); */
+      /* flex-wrap: wrap; */
+      /* flex-flow: wrap; */
+      
+      /* flex-flow: row wrap;; */
    }
 }
