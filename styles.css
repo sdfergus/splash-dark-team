@@ -167,17 +167,23 @@ nav {
    }
 }
 
-@media all and (max-width:1199px) {
-   .col-filler {
-      /* display: none !important; */
+/* X-Large devices (large desktops, 1200px and up) */
+@media all and (min-width:1200px) {
+   #locations-list .row .col-sm-6 ul #sf-text {
+      width: 265px;
    }
-   #locations-list {
-      /* display: grid; */
-      /* grid-gap: 100px; */
-      /* grid-template-columns: repeat(auto-fill, 600px); */
-      /* flex-wrap: wrap; */
-      /* flex-flow: wrap; */
-      
-      /* flex-flow: row wrap;; */
+}
+
+/* For screen sizes large and under */
+@media all and (max-width:1199px) {
+
+}
+
+/* For screen sizes x-small and under */
+@media all and (max-width:575px) {
+
+   #locations-list .row {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
    }
 }
