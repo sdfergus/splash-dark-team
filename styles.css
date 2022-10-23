@@ -27,6 +27,12 @@ header {
    background-position: center center; 
    padding-top: 3em;
 } 
+#swimprograms header {
+   background: no-repeat lightblue url(images/summer-swim-camps.jpeg);
+   background-size: cover;
+   background-position: center center; 
+   padding-top: 3em;
+}
 
 /* -------------------------------- Navbar (Shandira) -------------------------------- */
 nav {
@@ -273,9 +279,16 @@ nav {
 
 
  /* -------------------------------- Swimming Lessons page (Gloria) -------------------------------- */
+#swimlessons header h2 {
+   text-align: center;
+   color: white;
+   margin-top: 120px;
+   font-size: 44pt;
+} 
+
  #swimlessons body {
-    font-family: "Bodoni Moda";  
- }
+   font-family: "Bodoni Moda";  
+}
 
 #swimlessons main {
    font-family: Open, Sans, Regular;
@@ -304,21 +317,45 @@ nav {
    font-weight: bold;
 }
 #swimlessons #stroke p{
-   margin: 0;
-   
+   margin: 0;  
 }
 
-#swimlessons a:link {
+#swimlessons main a:link {
    color: #03B1F4;
    text-decoration: underline;
 }
-#swimlessons ul.no-bullets{
+#swimlessons main ul.no-bullets{
    list-style-type: none;
    margin: 0;
    padding: 0;
    line-height:2.0 ;
 }
 
+/* -------------------------------- Swim Programs page (Gloria) -------------------------------- */
+#swimprograms header h2 {
+   text-align: center;
+   color: white;
+   margin-top: 120px;
+   font-size: 44pt;
+}
+#swimprograms h5{
+   font-family: 'Bodoni Moda', serif;
+   font-size: 72pt;
+   font-weight: bold;
+}
+#swimprograms #stroke p{
+   margin: 0;  
+}
+#swimprograms main a:link {
+   color: #03B1F4;
+   text-decoration: underline;
+}
+#swimprograms main ul.no-bullets{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   line-height:2.0 ;
+}
 
 /* -------------------------------- Footer (Xuan) -------------------------------- */
 .splash-site-footer {
