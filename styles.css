@@ -3,22 +3,25 @@
 } */
 header {
    width: 100%;
-   min-height: 500px;
-   /* min-height: 275px; */
+   min-height: 275px;
 }
 
 #about-header {
-   min-height: 100px;
+   min-height: 150px;
+}
+
+#adultprogram-header {
+   min-height: 280px;
 }
 
 #home {
    background: no-repeat white url(/images/home.jpeg);
-   background-size: 100% 600px;
+   background-size: 100% 800px;
    /* background-size: 100% auto; */
 }
 #about {
    background: no-repeat white url(/images/about-us-hero.jpeg);
-   background-size: 100% 400px;
+   background-size: 100% 500px;
  
  }
  #swimlessons header {
@@ -26,15 +29,22 @@ header {
    background-size: cover;
    background-position: center center; 
    padding-top: 3em;
+   min-height: 400px;
 } 
 #swimprograms header {
    background: no-repeat lightblue url(images/summer-swim-camps.jpeg);
    background-size: cover;
    background-position: center center; 
    padding-top: 3em;
+   min-height: 400px;
 }
 #contact {
    background: no-repeat white url(/images/contact-hero.jpeg);
+   background-size: 100% 500px;
+ }
+
+ #adultprogram {
+   background: no-repeat white url(/images/lap-swimming.jpeg);
    background-size: 100% 500px;
  }
 
@@ -229,6 +239,270 @@ nav {
     }
 }
 
+/* -------------------------------- Home Page (Kalvin) -------------------------------- */
+/* On image styling */
+.textonbabyimg{
+   color: white;
+   text-align: center;
+   font-family: Bodoni Moda;
+   font-size: 55px;
+   font-weight: bold;
+}
+#infoandswimvengerbtns {  
+  padding: 10px;
+  text-align: center; 
+}
+#informationalvideobtn {
+   background-color: white;
+   color: #03b1f4;
+   font-weight: bold;
+   padding: 20px 20px;
+   cursor: pointer;
+   margin: 4px 2px;
+   border-radius: 40px;
+}
+#swimvengervideobtn {
+   background-color: white;
+   color: #03b1f4;
+   font-weight: bold;
+   padding: 20px 20px;
+   cursor: pointer;
+   margin: 4px 2px;
+   border-radius: 40px;
+}
+
+/*---------- Hands on teaching section ---------- */
+.onimg {
+   margin-top: 205px;
+}
+.handsonteaching{
+   width: 131%;
+   margin-top: 20px;
+}
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+}
+img#hiringbannerimg {
+   margin-top: 20px;
+}
+.splashesofferfont {
+   font-weight: bold;
+   font-size: 24px;
+}
+.swimminglessons {
+   font-size: 24px;
+}
+a.swmminglessonoptions {
+   color: black;
+   text-decoration: underline;
+}
+#handsonteachingbtn {
+   background-color: #03b1f4;
+   color: white;
+   text-align: center;
+   padding: 10pn 20px;
+   cursor: pointer;
+   border-radius: 50px;
+   margin-left: 125px;
+   font-weight: bold;
+}
+.pt1 {
+   background: url(images/home-hands-on-teaching.png);
+   background-repeat: no-repeat;
+   background-size: 190%;
+   height: 1000px;
+   background-position: center;
+}
+/* .pt2 {
+   width: 25%;
+   position: relative;
+   margin-top: 20px;
+   top: 25%;
+   margin-left: 100px;
+} */
+.info1{ 
+   font-size: 24px;
+}
+.handsonteachingtxt {
+   font-family: Bodoni Moda;
+   font-weight: bold;
+   font-size: 50px;
+}
+
+.pt3 {
+   position: relative;
+   background-image: url("images/home-our-locations-bg.jpg");
+   min-height: 850px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.pic2 {
+   
+   position: relative;
+   width: 50%;
+   float: right;
+   height: 850px;
+}
+.findsplashtxt {
+  text-align: center;
+  font-family: open sans-serif;
+}
+.familyswimlocationtxt {
+   color: white;
+}
+.splashesaquaticstxt {
+   color: darkgray;
+}
+#findswimlocationbtn{
+   background-color: #03b1f4;
+   color: white;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 16px;
+}
+.pt5 {
+   text-align: center;
+}
+/* HANDS ON TEACHING MEDIA QUERIES */
+
+@media (min-width: 1200px) {
+   .pt2 {
+       width: 33%;
+       position: relative;
+       margin-top: 20px;
+       top: 18%;
+       margin-left: 25px;
+   }
+}
+@media (min-width: 1200px) {
+   .handsonteachingtxt {
+       font-size: 35px;
+   }
+}
+@media (min-width: 1200px) {
+   .info1 {
+       font-size: 14px;
+       width: 100%;
+   }
+}
+@media (min-width: 1200px) {
+   .swimminglessons {
+       font-size: 16px;
+   }
+}
+@media (max-width: 1199px) {
+   .pt1 {
+       background: white;
+   }
+}
+@media (max-width:1199px) {
+   .pt2 {
+       position: relative;
+       margin-top: 20px;
+       top: 18%;
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+}
+@media (max-width: 1199px) {
+   #handsonteachingbtn {
+       margin-left: 400px;
+   }
+}
+
+/* ---------- FIND SWIM SCHOOL MEDIA QUERIES --------- */
+
+@media (min-width: 1200px) {
+   .findsplashtxt {
+       font-family: Bodoni Moda;
+       font-weight: bold;
+       font-size: 80px;
+       color: white;
+   }
+}
+@media (min-width: 1200px) {
+   .familyswimlocationtxt {
+       font-family: Bodoni Moda;
+       font-weight: bold;
+       font-size: 50px;
+   }
+}
+@media (min-width: 1200px) {
+   .splashesaquaticstxt {
+       font-size: 23px;
+   }
+}
+/* @media (max-width: 1199px) {
+  .pt3 {
+   background: url("images/home-our-locations-bg.jpg");
+  }
+} */
+@media (max-width: 1199px) {
+   .findsplashtxt {
+       font-family: Bodoni Moda;
+       font-weight: bold;
+       font-size: 80px;
+       color: white;
+       width: 100%;
+}
+}
+
+/* Awards */
+@media (min-width: 577px) {
+   #awards {
+       display: grid;
+       grid-template-columns: repeat(3, 3fr);
+       list-style-type: none;
+       width: fit-content;
+       margin-right: auto;
+       margin-left: auto;
+      
+   }
+}
+@media (max-width: 576px) {
+   #awards {
+       list-style-type: none;
+   }
+}
+
+/* -------------------------------- Adult Programs Page (Kalvin) -------------------------------- */
+
+#adultprogram .caption1 {
+   font-family: Bodoni Moda;
+   font-weight: bold;
+   font-size: 35px;
+   text-align: center;
+}
+#adultprogram .adultpageinfo {
+   font-size: 15px;
+}
+#adultprogram #findlapswim {
+   text-decoration: underline;
+   color: #03b1f4;
+}
+#adultprogram main{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
+}
+#adultprogram .textonbabyimg1 {
+   color: white;
+   text-align: center;
+   font-family: Bodoni Moda;
+   font-size: 70px;
+   font-weight: bold;
+}
+#adultprogram .onimg1{
+   margin-top: 120px;
+}
+
+
 
 /* -------------------------------- About page (Xuan) -------------------------------- */
 .shadow-text {
@@ -239,7 +513,7 @@ nav {
  .philosophyP {
    background: no-repeat white url(/images/about-our-philosophy-bg.jpeg);
    background-size: 100% 100%;
-   padding-top: 80px;
+   padding-top: 40px;
    padding-bottom: 80px;
  }
  .philosophyP p {
@@ -438,6 +712,21 @@ nav {
    border-bottom: 1px solid #cccccc;
    padding: 35px 0;
 }
+
+/* .splash-site-footer .footer-contact > div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .splash-site-footer .footer-contact > div > div {
+   font-weight: 600;
+   margin-bottom: 5px;
+ }
+ 
+ .splash-site-footer .footer-contact > div > a {
+   color: var(--grey);
+ } */
  
  
 .splash-site-footer .footer-part-two {

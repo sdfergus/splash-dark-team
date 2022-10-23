@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale = 1, shrink-to-fit = no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+      <!--Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+        <title>Document</title>
+    </head>
+<body id="adultprogram">
+    <div id="container">      
+      <nav class="navbar navbar-expand-xl navbar-dark sticky-top" id="nav-bar">
+        <a class="navbar-brand pl-4 pt-0" href="index.html">
+            <img src="images/logo-small.png" alt="Splashes Logo" width="250" height="auto">
+        </a>
+        <button 
+            class="navbar-toggler ml-auto custom-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarContent" 
+            aria-controls="navbarContent" 
+            aria-expanded = "false" 
+            aria-label="Toggle navigation">                            
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarContent">
+           <ul class="navbar-nav mb-2">
+              <li class="nav-item active">
+                 <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="swimlessons.html">Swimming Lessons</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="swimprograms.html">Swim Programs</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="adultprogram.html">Adult Programs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a 
+                   class="nav-link" href="#"
+                   id="navbarDropdownMenuLink" 
+                   role="button" 
+                   data-toggle="dropdown"
+                   aria-haspopup="true" 
+                   aria-expanded="false">
+                   Locations
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                   <!-- Nav Locations Links -->
+                   <div class="text-center text-md-left" id="locations-list">                     
+                      <!------------------ Grid row ------------------->
+                      <div class="row text-left">            
+                         <!-- Orange County column -->
+                         <div class="col-sm-6 col-xl-3">
+                            <h6 class="font-weight-bold mt-3 mb-0">Orange County</h6>    
+                            <ul class="list-unstyled">
+                               <li><a href="#!">Anaheim Hills @ LA Fitness</a></li>
+                               <li><a href="#!">Huntington Beach</a></li>
+                               <li><a href="#!">Irvine</a></li>
+                               <li><a href="#!">Yorba Linda @ LA Fitness</a></li>
+                            </ul>          
+                         </div>
+                         <!-- End of Orange County column -->
+                   
+                         <!-- San Gabriel Valley column -->
+                         <div class="col-sm-6 col-xl-3">
+                            <h6 class="font-weight-bold mt-3 mb-0">San Gabriel Valley</h6>
+                            <ul class="list-unstyled">
+                               <li><a href="#!">Alhambra-Fremont @ LA Fitness</a></li>
+                               <li><a href="#!">Arcadia @ LA Fitness</a></li>
+                               <li><a href="#!">Diamond Bar @ LA Fitness</a></li>
+                               <li><a href="#!">Pasadena</a></li>
+                               <li><a href="#!">West Covina @ LA Fitness</a></li>
+                            </ul>
+                         </div>
+                         <!-- End of San Gabriel Valley column -->
+                   
+                         <!-- Silicon Valley column -->
+                         <div class="col-sm-6 col-xl-6">
+                            <h6 class="font-weight-bold mt-3 mb-0">Silicon Valley</h6>
+                            <ul class="list-unstyled">
+                               <li><a href="#!">North San Jose @ City Sports Club</a></li>
+                               <li><a href="#!">San Jose-Almaden @ City Sports Club</a></li>
+                               <li><a href="#!">San Jose-Bascom</a></li>
+                               <li><a href="#!">San Jose-Blossom Hill @ City Sports Club</a></li>
+                               <li><a href="#!">Sunnyvale @ City Sports Club</a></li>
+                            </ul>
+                         </div>
+                         <!-- End of Silicon Valley column -->
+                         
+                         <!-- San Diego County column -->
+                         <div class="col-sm-6 col-xl-3">
+                            <h6 class="font-weight-bold mt-3 mb-0">San Diego County</h6>    
+                            <ul class="list-unstyled">
+                               <li><a href="#!">Carlsbad</a></li>
+                               <li><a href="#!">Poway @ LA Fitness</a></li>
+                            </ul>          
+                         </div>
+                         <!-- End of San Diego County column -->
+
+                         <!-- Los Angeles County column -->
+                         <div class="col-sm-6 col-xl-3">
+                            <h6 class="font-weight-bold mt-3 mb-0">Los Angeles County</h6>
+                            <ul class="list-unstyled">
+                               <li><a href="#!">Culver City @ LA Fitness</a></li>
+                               <li><a href="#!">Harbor City @ LA Fitness</a></li>
+                            </ul>
+                         </div>
+                         <!-- End of Los Angeles County column -->  
+                         
+                         <!-- Alameda County column -->
+                         <div class="col-sm-6 col-xl-6">
+                            <h6 class="font-weight-bold mt-3 mb-0">Alameda County</h6>
+                            <ul class="list-unstyled">
+                               <li><a href="#!">Hayward @ City Sports Club</a></li>
+                            </ul>
+                         </div>
+                         <!-- End of Alameda County column -->                              
+
+                         <!-- San Francisco column -->
+                         <div class="col-sm-6 col-xl-6">
+                            <h6 class="font-weight-bold mt-3 mb-0">San Francisco</h6>    
+                            <ul class="list-unstyled">
+                               <li id="sf-text"><a href="#!">San Francisco-20th Avenue @ City Sports Club</a></li>
+                            </ul>          
+                         </div>
+                         <!-- End of San Francisco column -->
+
+                         <!-- Denver column --> 
+                         <div class="col-sm-6 col-xl-6">
+                            <h6 class="font-weight-bold mt-3 mb-0">Denver</h6>
+                            <ul class="list-unstyled">
+                               <li><a href="#!">Highlands Ranch</a></li>
+                            </ul>
+                         </div>
+                         <!-- End of Denver column -->   
+
+                      </div>
+                      <!--------------- End of Grid row ---------------->      
+                   </div>
+                   <!-- End of Nav Locations Links -->
+                </div>
+             </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>  
+            <a class="btn btn-primary rounded-pill bg-white border-0 px-3 custom-class" 
+             id="register-btn" 
+             href="signin.html" 
+             role="button">
+             Register / Sign In
+            </a>   
+        </div>
+     </nav>
+      <header id="adultprogram-header">
+        <div class="onimg1">
+            <h2 class="textonbabyimg1">Adult Lap Swimming</h2>
+        </div>         
+      </header>
+    <p class="caption1">
+      Get Fit & Stay Fit With Daily Lap Swimming
+    </p><br>
+        <main>
+            <p class="adultpageinfo">Adult lap swimming provides a full-body workout that targets the core, arms, back, and legs. It also provides swimmers with access to various training methods including strength training, aerobic training, and low-impact training.</p><br>
+            <p class="adultpageinfo">If you are looking to improve your workout routine, be sure to stop by a Splashes Aquatics location to learn more about adult lap swimming. Swimmers will find that there are times throughout the week that will work with your schedule. </p><br>
+            <p class="adultpageinfo">Each lane will have up to two lap swimmers. Children under the age of 14 must be accompanied by their parent and able to swim 200 yards of the pool on their own. Lanes are limited during shared pool usage. No private swim instruction or coaching is permitted. No Lifeguard on duty. **NOTE: If you would like to reserve the entire lane for yourself, and not have to share with another swimmer, you may reserve both A and B slots for your selected lane/time.**</p><br>
+            <p class="splashesofferfont"> Find Lap Swimming Near You</p>
+            <a href="#" id="findlapswim">Irvine</a><br>
+            <a href="#" id="findlapswim">Huntington Beach</a><br>
+            <a href="#" id="findlapswim">Carlsbad</a><br>
+            <a href="#" id="findlapswim">Pasadena</a><br>
+            <a href="#" id="findlapswim">San Jose</a><br>
+            <a href="#" id="findlapswim">Denver/Highlands Ranch</a><br>
+        </main>
+  </div>
+<!-- Footer -->
+<footer class="splash-site-footer">
+    <div class="footer-logo">
+      <img src="./images/wave-small.png" alt="footer-logo" />
+    </div>
+    <div class="footer-part-one row mt-5">
+      <div class="col-md-6 col-12">
+        <nav class="navbar navbar-expand">
+          <ul class="navbar-nav nav-container">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <!-- target top location and open -->
+              <a class="nav-link" href="#">Locations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register / Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-6 col-12 icon-wrapper">
+        <a class="fa-stack" style="vertical-align: top; margin-left: 200px" href="#">
+          <i class="fa-solid fa-circle fa-stack-2x" style="color: #055e97"></i>
+          <i class="fa-brands fa-linkedin-in fa-stack-1x fa-inverse"></i>
+        </a>
+        <a class="fa-stack" style="vertical-align: top" href="#">
+          <i class="fa-solid fa-circle fa-stack-2x" style="color: #656667"></i>
+          <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
+        </a>
+        <a class="fa-stack" style="vertical-align: top" href="#">
+          <i class="fa-solid fa-circle fa-stack-2x" style="color: #27dffd"></i>
+          <i class="fa-brands fa-twitter fa-stack-1x fa-inverse"></i>
+        </a>
+        <a class="fa-stack" style="vertical-align: top" href="#">
+          <i class="fa-solid fa-circle fa-stack-2x" style="color: #cc0c24"></i>
+          <i class="fa-brands fa-yelp fa-stack-1x fa-inverse"></i>
+        </a>
+        <a class="fa-stack" style="vertical-align: top" href="#">
+          <i class="fa-solid fa-circle fa-stack-2x" style="color: #71b4fc"></i>
+          <i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
+        </a>
+        <a class="fa-stack" style="vertical-align: top" href="#">
+          <i class="fa-solid fa-circle fa-stack-2x" style="color: #cc0c24"></i>
+          <i class="fa-brands fa-youtube fa-stack-1x fa-inverse"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-contact-container">
+      <div class="footer-contact">
+        <div>
+          <div>Orange County</div>
+          <a href="tel:9494500777">(949) 450-0777</a>
+        </div>
+        <div>
+          <div>San Diego County</div>
+          <a href="tel:7606039400">(760) 603-9400</a>
+        </div>
+        <div>
+          <div>Los Angeles County</div>
+          <a href="tel:6268361200">(626) 836-1200</a>
+        </div>
+        <div>
+          <div>Northern California</div>
+          <a href="tel:4082791700">(408) 279-1700</a>
+        </div>
+        <div>
+          <div>Denver</div>
+          <a href="7203447700">(720) 344-7700</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-part-two-container">
+      <div class="footer-part-two row">
+        <div class="col-sm-8 col-12 sponsors-logo">
+          <div>
+            <img src="./images/sponsors/footer-usssa-logo-2.png" alt="usssa-logo" />
+          </div>
+          <div>
+            <img src="./images/sponsors/footer-ndpa-logo.png" alt="ndpa-logo" />
+          </div>
+          <div>
+            <img src="./images/sponsors/footer-member-issa-logo.png" alt="issa-logo" />
+          </div>
+          <div>
+            <img src="./images/sponsors/footer-stop-drowning-now-logo.png" alt="stop-logo" />
+          </div>
+        </div>
+        <div class="col-sm-4 col-12 copyright">
+          © 2022 Splashes.<br />
+          All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+ <!-- Bootstrap jQuery -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <!-- Bootstrap Popper -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <!-- Bootstrap JS -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
