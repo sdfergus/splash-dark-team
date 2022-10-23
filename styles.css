@@ -50,13 +50,14 @@ nav {
 .highlight {
    background-color: white;
    color: black !important;
+   font-weight: 500 !important;
    /* height: 3em;  */
 }
 
-.highlight:focus {
+/* .highlight:focus {
    background-color: white;
    color: black !important;   
-}
+} */
 
 #navbarContent #register-btn {
     color:#03B1F4; 
@@ -148,6 +149,16 @@ nav {
     }
  }
 
+/* For screen sizes x-small and under */
+@media all and (max-width:575px) {
+
+   #locations-list .row {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+   }
+}
+
+/* For screen sizes large and under */
 @media all and (max-width:1199px) {
    .custom-class { /* To expand the button to full width in hamburger menu mode */
       width: 95%; 
@@ -170,6 +181,18 @@ nav {
    #locations-list .row .col-sm-6 {
       margin-bottom: 12px !important;
    }
+   #navbarContent #register-btn {
+      padding: 10px 0;
+      font-size: 14px;
+   } 
+   #navbarContent .navbar-nav .nav-item .nav-link {
+      font-size: 16px;
+      font-weight: 400;
+   }
+   #navbarContent #register-btn {
+      padding: 10px 0;
+      font-size: 14px;
+   }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -179,16 +202,3 @@ nav {
    }
 }
 
-/* For screen sizes large and under */
-@media all and (max-width:1199px) {
-
-}
-
-/* For screen sizes x-small and under */
-@media all and (max-width:575px) {
-
-   #locations-list .row {
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-   }
-}
