@@ -90,7 +90,7 @@ nav {
 
  /* -------------------- Signin page -------------------- */
  #signin #signin-card {
-   width: 50%;
+   /* max-width: 60%; */
  }
 
  #signin #signin-card h2 {
@@ -139,7 +139,8 @@ nav {
     background-color: #f8f8f8;
  }
 
- @media all and (max-width:768px) {
+ /* Customized for signin card */
+ @media all and (max-width:769px) {
     #signin-card {
       width: 80% !important;
     }
@@ -200,5 +201,9 @@ nav {
    #locations-list .row .col-sm-6 ul #sf-text {
       width: 265px;
    }
+
+   #signin-card {
+      width: 60% !important;
+    }
 }
 
