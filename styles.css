@@ -53,6 +53,11 @@ nav {
    /* height: 3em;  */
 }
 
+.highlight:focus {
+   background-color: white;
+   color: black !important;   
+}
+
 #navbarContent #register-btn {
     color:#03B1F4; 
     font-weight: 700;
@@ -70,7 +75,7 @@ nav {
 /* -------------------- Locations Grid List -------------------- */
 #locations-list {
    /* font-family: 'Open Sans', sans-serif; */
-   padding: 10px;
+   padding: 0px 20px;
 }
 #locations-list ul li {
    font-size: 14px;
