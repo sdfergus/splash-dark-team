@@ -33,6 +33,10 @@ header {
    background-position: center center; 
    padding-top: 3em;
 }
+#contact {
+   background: no-repeat white url(/images/contact-hero.jpeg);
+   background-size: 100% 500px;
+ }
 
 /* -------------------------------- Navbar (Shandira) -------------------------------- */
 nav {
@@ -357,42 +361,67 @@ nav {
    line-height:2.0 ;
 }
 
+/* -------------------------------- Contact Us page (Xuan) -------------------------------- */
+#contact #aboutsplash {
+   min-height: 315px;
+}
+
+#contact #aboutsplash h2 {
+   color: white;
+   text-align: center;
+   font-weight: bold;
+   font-size: 44px;
+   margin-top: 120px;
+}
+
+#contact .contact-options-section {
+   max-width: 1024px;
+}
+#contact .contact-option {
+   width: 200px;
+   height: 200px;
+}
+
+#contact .contact-options .contact-option img {
+   object-fit: contain;
+} 
+
 /* -------------------------------- Footer (Xuan) -------------------------------- */
 .splash-site-footer {
    background: no-repeat var(--light-grey) url("/images/footer-bg.jpeg") center;
    background-size: cover;
    padding-bottom: 150px;
    padding-top: 20px;
- }
+}
  
- .splash-site-footer .footer-part-one {
+.splash-site-footer .footer-part-one {
    align-items: center;
- }
+}
  
- .splash-site-footer .footer-logo {
+.splash-site-footer .footer-logo {
    margin-top: 70px;
    display: flex;
    justify-content: center;
- }
- 
- .splash-site-footer .footer-part-one .navbar {
+}
+
+.splash-site-footer .footer-part-one .navbar {
    text-decoration: underline;
    justify-content: center;
- }
- 
- .splash-site-footer .footer-part-one .nav-link {
+}
+
+.splash-site-footer .footer-part-one .nav-link {
    color: black;
    font-weight: 600;
- }
- 
- .splash-site-footer .icon-wrapper {
+}
+
+.splash-site-footer .icon-wrapper {
    display: flex;
    justify-content: center;
- }
- 
- .splash-site-footer .icon-wrapper a {
+}
+
+.splash-site-footer .icon-wrapper a {
    cursor: pointer;
- }
+}
  
  .splash-site-footer .footer-contact-container,
  .splash-site-footer .foot-part-two-container {
@@ -401,56 +430,56 @@ nav {
    margin-top: 40px;
  }
  
- .splash-site-footer .footer-contact {
+.splash-site-footer .footer-contact {
    display: flex;
    justify-content: space-evenly;
    width: 80%;
    border-top: 1px solid #cccccc;
    border-bottom: 1px solid #cccccc;
    padding: 35px 0;
- }
+}
  
  
- .splash-site-footer .footer-part-two {
+.splash-site-footer .footer-part-two {
    width: 80%;
- }
- 
- .splash-site-footer .footer-part-two .sponsors-logo {
+}
+
+.splash-site-footer .footer-part-two .sponsors-logo {
    display: flex;
    flex-wrap: wrap;
- }
- 
- .splash-site-footer .footer-part-two .sponsors-logo > div:not(:last-child) {
+}
+
+.splash-site-footer .footer-part-two .sponsors-logo > div:not(:last-child) {
    margin-right: 20px;
- }
- 
- .splash-site-footer .footer-part-two .copyright {
+}
+
+.splash-site-footer .footer-part-two .copyright {
    text-align: right;
- }
+}
  
- @media (max-width: 767px) {
+@media (max-width: 767px) {
    .splash-site-footer .footer-contact {
-     flex-direction: column;
-     width: 90%;
+      flex-direction: column;
+      width: 90%;
    }
- 
+
    .splash-site-footer .footer-contact > div:not(:last-child) {
-     margin-bottom: 20px;
+      margin-bottom: 20px;
    }
- 
+
    .splash-site-footer .icon-wrapper a:first-child {
-     margin: 0 !important;
+      margin: 0 !important;
    }
- 
+
    .splash-site-footer .footer-part-two .copyright {
-     text-align: center;
-     margin-top: 30px;
+      text-align: center;
+      margin-top: 30px;
    }
- 
+
    .splash-site-footer .footer-part-two .sponsors-logo > div:last-child {
-     margin: auto;
+      margin: auto;
    }
- }
+}
  
  :root {
    --blue: #03b1f4;
