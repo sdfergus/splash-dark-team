@@ -4,12 +4,21 @@ header {
    /* min-height: 275px; */
 }
 
+#about-header {
+   min-height: 100px;
+}
+
 #home {
    background: no-repeat white url(/images/home.jpeg);
    background-size: 100% 600px;
    /* background-size: 100% auto; */
 }
 
+#about {
+   background: no-repeat white url(/images/about-us-hero.jpeg);
+   background-size: 100% 400px;
+ 
+ }
 
 /* -------------------- Navbar -------------------- */
 nav {
@@ -20,12 +29,12 @@ nav {
    background-color: rgba(26, 46, 56, 0.9);
    /* padding-bottom: 0;
    padding-top: 20px;  */
-   font-size: 14px;   
+   font-size: 14px; 
 }
 
 #navbarContent {
    /* margin-bottom: 25px; */
-   justify-content: space-around;
+   justify-content: space-around; 
 }
 
 #navbarContent .navbar-nav .nav-item .nav-link {
@@ -53,11 +62,6 @@ nav {
    font-weight: 500 !important;
    /* height: 3em;  */
 }
-
-/* .highlight:focus {
-   background-color: white;
-   color: black !important;   
-} */
 
 #navbarContent #register-btn {
     color:#03B1F4; 
@@ -88,7 +92,7 @@ nav {
 }
 
 
- /* -------------------- Signin page -------------------- */
+ /* -------------------- Signin page (Shandira) -------------------- */
  #signin #signin-card {
    /* max-width: 60%; */
  }
@@ -207,3 +211,159 @@ nav {
     }
 }
 
+
+/* -------------------------------- About page (Xuan) -------------------------------- */
+.shadow-text {
+   text-shadow: 1px 1px 2px var(--dark-grey);
+   margin-top: 80px;
+ }
+
+ .philosophyP {
+   background: no-repeat white url(/images/about-our-philosophy-bg.jpeg);
+   background-size: 100% 100%;
+   padding-top: 80px;
+   padding-bottom: 80px;
+ }
+ .philosophyP p {
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 2em;
+   font-size: larger;
+   line-height: 2em;
+ }
+ .goodJobP {
+   background: no-repeat white url(/images/about-we-do-a-pretty-good-job-bg.jpeg);
+   background-size: 100% 100%;
+   padding-top: 80px;
+   padding-bottom: 80px;
+ }
+ .goodJobP p {
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 2em;
+   font-size: larger;
+   line-height: 2em;
+ }
+ 
+ .awardsDiv {
+   padding-top: 80px;
+   padding-bottom: 80px;
+ }
+ .awards {
+   padding-left: 12.5%;
+   padding-right: 12.5%;
+   text-align: center;
+ }
+ .awardsDiv .awards .award {
+   display: inline-block;
+   margin: 1em;
+ }
+ .awardsDiv .awards .award img {
+   width: 100%;
+   height: 100%;
+ }
+
+
+/* -------------------------------- Footer (Xuan) -------------------------------- */
+.splash-site-footer {
+   background: no-repeat var(--light-grey) url("/images/footer-bg.jpeg") center;
+   background-size: cover;
+   padding-bottom: 150px;
+   padding-top: 20px;
+ }
+ 
+ .splash-site-footer .footer-part-one {
+   align-items: center;
+ }
+ 
+ .splash-site-footer .footer-logo {
+   margin-top: 70px;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .splash-site-footer .footer-part-one .navbar {
+   text-decoration: underline;
+   justify-content: center;
+ }
+ 
+ .splash-site-footer .footer-part-one .nav-link {
+   color: black;
+   font-weight: 600;
+ }
+ 
+ .splash-site-footer .icon-wrapper {
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .splash-site-footer .icon-wrapper a {
+   cursor: pointer;
+ }
+ 
+ .splash-site-footer .footer-contact-container,
+ .splash-site-footer .foot-part-two-container {
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+ }
+ 
+ .splash-site-footer .footer-contact {
+   display: flex;
+   justify-content: space-evenly;
+   width: 80%;
+   border-top: 1px solid #cccccc;
+   border-bottom: 1px solid #cccccc;
+   padding: 35px 0;
+ }
+ 
+ 
+ .splash-site-footer .footer-part-two {
+   width: 80%;
+ }
+ 
+ .splash-site-footer .footer-part-two .sponsors-logo {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .splash-site-footer .footer-part-two .sponsors-logo > div:not(:last-child) {
+   margin-right: 20px;
+ }
+ 
+ .splash-site-footer .footer-part-two .copyright {
+   text-align: right;
+ }
+ 
+ @media (max-width: 767px) {
+   .splash-site-footer .footer-contact {
+     flex-direction: column;
+     width: 90%;
+   }
+ 
+   .splash-site-footer .footer-contact > div:not(:last-child) {
+     margin-bottom: 20px;
+   }
+ 
+   .splash-site-footer .icon-wrapper a:first-child {
+     margin: 0 !important;
+   }
+ 
+   .splash-site-footer .footer-part-two .copyright {
+     text-align: center;
+     margin-top: 30px;
+   }
+ 
+   .splash-site-footer .footer-part-two .sponsors-logo > div:last-child {
+     margin: auto;
+   }
+ }
+ 
+ :root {
+   --blue: #03b1f4;
+   --white: #ffffff;
+   --light-grey: #e4e4e4;
+   --black: #1a2e38;
+   --dark-grey: #444444;
+   --grey: #757576;
+ }
