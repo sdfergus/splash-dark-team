@@ -1,6 +1,7 @@
-/* main {
-   font-family: "Bodoni Moda";
-} */
+main {
+   font-family: 'Open Sans', sans-serif;
+}
+
 header {
    width: 100%;
    min-height: 275px;
@@ -244,7 +245,7 @@ nav {
 .textonbabyimg{
    color: white;
    text-align: center;
-   font-family: Bodoni Moda;
+   font-family: 'Bodoni Moda', serif;
    font-size: 55px;
    font-weight: bold;
 }
@@ -473,7 +474,7 @@ a.swmminglessonoptions {
 /* -------------------------------- Adult Programs Page (Kalvin) -------------------------------- */
 
 #adultprogram .caption1 {
-   font-family: Bodoni Moda;
+   font-family: 'Bodoni Moda', serif;
    font-weight: bold;
    font-size: 35px;
    text-align: center;
@@ -494,7 +495,7 @@ a.swmminglessonoptions {
 #adultprogram .textonbabyimg1 {
    color: white;
    text-align: center;
-   font-family: Bodoni Moda;
+   font-family: 'Bodoni Moda', serif;
    font-size: 70px;
    font-weight: bold;
 }
@@ -505,6 +506,11 @@ a.swmminglessonoptions {
 
 
 /* -------------------------------- About page (Xuan) -------------------------------- */
+#about h1 {
+   font-family: 'Bodoni Moda', serif;
+   font-weight: bold;
+}
+
 .shadow-text {
    text-shadow: 1px 1px 2px var(--dark-grey);
    margin-top: 80px;
@@ -564,14 +570,21 @@ a.swmminglessonoptions {
    font-size: 44pt;
 } 
 
- #swimlessons body {
+ /* #swimlessons body {
    font-family: "Bodoni Moda";  
 }
 
 #swimlessons main {
    font-family: Open, Sans, Regular;
+} */
+
+#swimlessons #swim-hero-header, #swimlessons #swim-subheader {
+   font-family: 'Bodoni Moda', serif;
 }
 
+#swimlessons #swim-subheader {
+   font-weight: bold;
+}
 
 #swim h2 {
    color: white;
@@ -621,6 +634,12 @@ a.swmminglessonoptions {
    font-size: 72pt;
    font-weight: bold;
 }
+
+#swimprograms #swim-hero-header, #swimprograms #swim h4 {
+   font-family: 'Bodoni Moda', serif;
+   font-weight: bold;
+}
+
 #swimprograms #stroke p{
    margin: 0;  
 }
@@ -646,6 +665,10 @@ a.swmminglessonoptions {
    font-weight: bold;
    font-size: 44px;
    margin-top: 120px;
+}
+
+#contact #aboutsplash b {
+   font-family: 'Bodoni Moda', serif;
 }
 
 #contact .contact-options-section {
